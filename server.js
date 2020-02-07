@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://buckibill:1Gracie00@ds047387.mlab.com:47387/heroku_d8s6nwpk", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
